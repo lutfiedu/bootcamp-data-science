@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Replace 'X' with the day number and '[Your Topic]' with the topic (e.g., 'Day 2: SQL Basics') -->
+  <title>A/B Testing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+</head>
+<body>
+  <header>
+    <!-- Replace 'X' with the day number and '[Your Topic]' with the topic -->
+    <h1>A/B Testing</h1>
+    <nav>
+      <!-- Navigation buttons -->
+      <a href="#" id="prev-link" class="nav-link prev">Previous</a>
+      <a href="index.html" class="nav-link home">Back to Home</a>
+      <a href="#" id="next-link" class="nav-link next">Next</a>
+      <!-- 
+        To update navigation:
+        - Ensure the page is listed in script.js 'days' array.
+        - JavaScript will automatically set the correct links for Previous and Next.
+      -->
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="description">
+        <h3>Description</h3>
+        <p>
+          Learned how to query databases using SQL. Practiced SELECT, JOIN, and WHERE clauses.
+        </p>
+        <!-- Update this <p> text to describe the day's content -->
+      </div>
+
+      <div class="video">
+        <h3>Video Recap</h3>
+        <div class="video-container">
+          <!-- Replace VIDEO_ID with the YouTube video ID (e.g., FOFocdFkdF8) -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cypY139j2IU?si=KGneylL_Oq-25ZGT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="code">
+        <h3>Code Snippet</h3>
+        <pre><code>-- SQL: Query to find top customers
+SELECT customer_id, COUNT(*) as order_count
+FROM orders
+GROUP BY customer_id
+ORDER BY order_count DESC
+LIMIT 5;
+</code></pre>
+        <!-- Update the code inside <pre><code> with your code -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name. Hosted on GitHub Pages.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

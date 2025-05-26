@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bootcamp Journey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Bootcamp Journey</h1>
+    <p>A record of my learning adventure</p>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Introduction -->
+    <section class="intro">
+      <h2>Welcome to My Bootcamp Journey</h2>
+      <p>
+        I'm documenting my experience in a coding bootcamp, where I'm learning skills like Python, SQL, and more. 
+        Below is a table of contents linking to each day's content, including videos, slides, and code snippets.
+      </p>
+      <!-- To update the bootcamp description, edit the <p> text above -->
+    </section>
+
+    <!-- Logo Slideshow -->
+    <section class="logo-slideshow">
+      <h2>Skills & Partners</h2>
+      <div class="carousel">
+        <div class="carousel-track">
+          <!-- 
+            To add a new logo:
+            1. Add an <img> tag below with the logo's URL in 'src'.
+            2. Update 'alt' for accessibility (e.g., "SQL Logo").
+            3. Logos will auto-resize to fit the carousel.
+            Example: <img src="https://example.com/your-logo.png" alt="Your Logo">
+          -->
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sqlite-square-icon.svg" alt="SQL Logo">
+          <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Python Logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Logo_of_Codeacademy.png" alt="Bootcamp Logo">
+          <!-- Add more <img> tags here for additional logos -->
+        </div>
+        <!-- Navigation buttons -->
+        <button class="carousel-btn prev" aria-label="Previous">&larr;</button>
+        <button class="carousel-btn next" aria-label="Next">&rarr;</button>
+      </div>
+    </section>
+
+    <!-- Table of Contents -->
+    <section class="toc">
+      <h2>Table of Contents</h2>
+      <ul id="toc-list">
+        <!-- JavaScript populates this list -->
+      </ul>
+      <!-- To add a new day: Create day3.html and update script.js -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name. Hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
